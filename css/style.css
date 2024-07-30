@@ -5,7 +5,6 @@
 }
 /* default font, and others color */
 
-
 .top_section{
     background-image: url(../img/School.jpeg);
     height: 100vh;
@@ -305,13 +304,18 @@ ul li a:active{
     flex-wrap: wrap;
     gap: 20px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 
 .event{
     background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     padding: 5px;
+    width: 400px;
 }
 .enent_Section .event img{
     height: 250px;
@@ -409,14 +413,6 @@ ul li a:active{
 
   }
 
-/* Responsive styles */
-@media (max-width: 768px) {
-    
-}
-
-
-
-
 
 @media only screen and (max-width: 600px) {
     body {
@@ -441,6 +437,12 @@ ul li a:active{
     .event_content_setion{
         flex-direction: column;
         
+    }
+    .event{
+        width: 300px;
+    }
+    .event img{
+        height: 200px;
     }
 
     .class_section a{
