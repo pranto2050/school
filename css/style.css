@@ -186,6 +186,10 @@ ul li a:active{
     background-color: rgba(250, 235, 215, 0.299);
 }
 
+.about_section h1{
+    border-bottom: 5px solid rgb(80, 80, 80);
+}
+
 
 .about_photo img{
     border-radius: 10px;
@@ -205,6 +209,9 @@ ul li a:active{
     text-align: justify;
     background-color: rgba(250, 235, 215, 0.299);
     height: 100%;
+}
+.head_teacher_bani h1{
+    border-bottom: 5px solid rgb(80, 80, 80);
 }
 
 /* Teachers Section */
@@ -345,6 +352,7 @@ ul li a:active{
         display: block;
     }
     .about_section{
+        text-align: center;
         flex-direction: column;
         padding: 5%;
     }
@@ -375,13 +383,16 @@ ul li a:active{
 
 
 @media only screen and (max-width: 600px) {
+    .top_hero_section{
+        text-align: center;
+    }
     body {
       background-color: lightblue;
     }
 
 /* About Section */
     .about_section{
-        flex-direction: column;
+        /* flex-direction: column; */
         padding: 5%;
     }
     
