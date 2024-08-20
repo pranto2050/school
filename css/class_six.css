@@ -1,0 +1,52 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button a{
+    text-decoration: none;
+    padding: 20px 10px;
+    color: red;
+}
+button{
+    margin-top: 20px;
+    padding: 20px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+    border: 1px solid red;
+}
+button:hover{
+    scale: 1.2;
+    border: 1px solid green;
+}
+button a:hover{
+    color: green;
+}
+
+.six_class_students{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.students_section{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.students_section img{
+    height: 200px;
+}
+.student_img_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
