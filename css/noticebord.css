@@ -149,15 +149,20 @@ ul li a:active{
 /* Notice Bord Section */
 
 .notice_bord_section{
+    z-index: -2;
     position: absolute;
     top: 10%;
-    padding: 0% 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .new_notice_section{
-    background-color: red;
-    height: 400px;
-    width: 500px;
+    text-align: center;
+}
+.new_notice_section img{
+    height: 800px;
 }
 
 
@@ -174,10 +179,6 @@ ul li a:active{
 
 /* CSS Responsive */
 
-
-
-
-
 @media only screen and (max-width: 768px) {
     nav {
         display: none;
@@ -190,32 +191,10 @@ ul li a:active{
     .nave_display{
         display: block;
     }
-    .about_section{
-        flex-direction: column;
-        padding: 5%;
+
+    .new_notice_section img{
+        height: 600px;
     }
-    
-    .about_photo img{
-        height: 450px;
-    }
-
-    .notice_section .notice_post{
-        align-items: center;
-    
-    }
-
-    .notice_section img{
-        height: 300px;
-        
-    }
-
-
-    .enent_Section .event img{
-        height: 200px;
-    }
-
-
-
 
   }
 
@@ -225,36 +204,9 @@ ul li a:active{
     body {
       background-color: lightblue;
     }
-
-/* About Section */
-    .about_section{
-        flex-direction: column;
-        padding: 5%;
+    .new_notice_section img{
+        height: 500px;
     }
     
-    .about_photo img{
-        height: 250px;
-    }
-/* Notice Section */
-    .notice_section .notice_post{
-        flex-direction: column;
-    
-    }
-    /* Event Section */
-    .event_content_setion{
-        flex-direction: column;
-        
-    }
-
-    .class_section a{
-        text-align: center;
-    }
-    .notice_section img{
-        height: 250px;
-        
-    }
-    .enent_Section .event img{
-        height: 200px;
-    }
   }
 
