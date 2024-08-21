@@ -282,12 +282,17 @@ ul li a:active{
     /* align-items: center; */
 
 }
+
 .notice_text_section{
     text-align: center;
 }
 .notice_text_section p{
     color: rgb(247, 50, 28);
     font-size: 20px;
+}
+
+.notice_post_buttom img{
+    height: 800px;
 }
 
 /* Routine Section */

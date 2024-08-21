@@ -198,15 +198,14 @@ ul li a:active{
     .about_photo img{
         height: 450px;
     }
-
-    .notice_section .notice_post{
-        align-items: center;
-    
-    }
-
+    /* Buttom Notice Section */
     .notice_section img{
         height: 300px;
         
+    }
+
+    .notice_post_buttom img{
+        height: 500px;
     }
 
 
